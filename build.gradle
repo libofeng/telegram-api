@@ -1,10 +1,16 @@
 buildscript {
 	repositories {
+        mavenCentral()
         jcenter()
     }
     dependencies {
         classpath 'com.github.jengelman.gradle.plugins:shadow:0.8'
     }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
 }
 
 def basicVersion = '1.1'
