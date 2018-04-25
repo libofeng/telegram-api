@@ -90,3 +90,9 @@ nbproject
 # Backup files
 ######################
 *.bak
+
+# Gradle
+######################
+state.ini
+.gradle
+build
